@@ -883,6 +883,7 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    allowedHosts: true,
     open: !isE2E,
     hmr: isE2E ? false : undefined,
     watch: {
